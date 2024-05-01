@@ -21,7 +21,7 @@ You can edit the page by modifying `screens/..`. The page auto-updates as you ed
 To learn more about Expo, take a look at the following resources:
 
 - [Expo Documentation]((https://docs.expo.dev/)) - learn about Expo features.
-- 
+
 You can check out [the Expo GitHub repository](https://github.com/expo/expo) - your feedback and contributions are welcome!
 
 ## Deploy on APK mode or PlayStore
