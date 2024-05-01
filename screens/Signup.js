@@ -34,8 +34,9 @@ const Signup = ({ navigation }) => {
 
           <Text
             style={{
-              fontSize: 14,
+              fontSize: 13,
               color: COLORS.black,
+              marginHorizontal: 80,
             }}
           >
             Connect with your friend today!

@@ -11,21 +11,23 @@ const Login = ({ navigation }) => {
     const [isChecked, setIsChecked] = useState(false);
     
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white, paddingTop: 20 }}>
             <View style={{ flex: 1, marginHorizontal: 22 }}>
                 <View style={{ marginVertical: 22 }}>
                     <Text style={{
-                        fontSize: 22,
+                        fontSize: 32,
                         fontWeight: 'bold',
                         marginVertical: 12,
+                        marginHorizontal: 29,
                         color: COLORS.black
                     }}>
-                        Hi Welcome Back ! 👋
+                        Hi Welcome Back! 👋
                     </Text>
 
                     <Text style={{
-                        fontSize: 16,
-                        color: COLORS.black
+                        fontSize: 14,
+                        color: COLORS.black,
+                        marginHorizontal: 60,
                     }}>Hello again you have been missed!</Text>
                 </View>
 
