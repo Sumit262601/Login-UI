@@ -38,7 +38,7 @@ const Welcome = ({ navigation }) => {
                             width: 100,
                             borderRadius: 20,
                             position: "absolute",
-                            top: -30,
+                            top: 10,
                             left: 100,
                             transform: [
                                 { translateX: 50 },
@@ -55,8 +55,8 @@ const Welcome = ({ navigation }) => {
                             height: 100,
                             borderRadius: 20,
                             position: "absolute",
-                            top: 130,
-                            left: -50,
+                            top: 150,
+                            left: -40,
                             transform: [
                                 { translateX: 50 },
                                 { translateY: 50 },
@@ -72,8 +72,8 @@ const Welcome = ({ navigation }) => {
                             width: 200,
                             borderRadius: 20,
                             position: "absolute",
-                            top: 110,
-                            left: 100,
+                            top: 130,
+                            left: 120,
                             transform: [
                                 { translateX: 50 },
                                 { translateY: 50 },
@@ -84,7 +84,6 @@ const Welcome = ({ navigation }) => {
                 </View>
 
                 {/* content  */}
-
                 <View style={{
                     paddingHorizontal: 22,
                     position: "absolute",
